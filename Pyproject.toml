@@ -1,0 +1,17 @@
+[project]
+name = "khaim-station"
+version = "1.0.0"
+description = "K-HAIM Station Service"
+dependencies = ["flet==0.28.3"]
+requires-python = ">=3.11"
+
+[tool.flet]
+app_name = "K-HAIM Station"
+org_name = "com.khaim"
+package_name = "com.khaim.station"
+product_name = "K-HAIM Station"
+assets_dir = "assets"
+
+[tool.flet.app]
+module = "main"
+path = "src"
